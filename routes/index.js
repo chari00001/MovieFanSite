@@ -35,7 +35,7 @@ router.get('/', function(req, res, next) {
     })
 })
   
-});
+})
 
 router.get('/movie/:id', (req, res, next) => {
 	// res.json(req.params.id)
