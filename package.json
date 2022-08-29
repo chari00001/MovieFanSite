@@ -12,6 +12,7 @@
     "express": "~4.16.1",
     "helmet": "^6.0.0",
     "http-errors": "~1.6.3",
-    "morgan": "~1.9.1"
+    "morgan": "~1.9.1",
+    "postman-request": "^2.88.1-postman.31"
   }
 }
