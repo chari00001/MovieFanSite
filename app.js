@@ -9,10 +9,6 @@ var indexRouter = require('./routes/index');
 
 var app = express();
 
-// app.use(helmet({
-//   contentSecurityPolicy: false,
-// }));
-
 app.use(helmet.contentSecurityPolicy({
     directives:{
         defaultSrc: ["'self'"],

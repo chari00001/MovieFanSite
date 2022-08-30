@@ -15,6 +15,7 @@
 			</div>
 			<div class="col-sm-12">
 				
+				<!-- Looping through every movie in parsedData came from router.js, then rendering its poster -->
 				<% parsedData.forEach((movie) => { %>
 					<div class="col-md-3 col-sm-4 poster">
 						<a href="/movie/<%= movie.id %>"><img src="<%= imageBaseUrl + movie.poster_path %>" /></a>
